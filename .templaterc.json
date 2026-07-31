@@ -1,3 +1,14 @@
-{
-  "files": [".github/**/*"]
-}
+owner: raquelinca          # tu usuario de GitHub
+repo: Raquelprueba          # el nombre de tu repositorio
+
+sites:
+  - name: Google
+    url: https://www.google.com
+  - name: Wikipedia
+    url: https://es.wikipedia.org
+  - name: Sitio Roto de Prueba
+    url: https://pruebasitiorroto.xyz    # un sitio que NO existe, para probar que detecta caídas
+
+status-website:
+  cname: # déjalo comentado si no tienes dominio propio
+  baseUrl: /Raquelprueba      # el nombre de tu repo
